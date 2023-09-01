@@ -22,7 +22,6 @@ int read_file(char *file_name, hash_table* ht);
 int insert(hash_table* ht, char* key);
 int hash(char *key, int table_size, int con);
 int double_hash(int h1, int h2, int attempt, int table_size);
-int get(hash_table* ht, const char* key);
 int resize(hash_table* ht);
 void free_ht(hash_table* ht, int end);
 void print(hash_table* ht);
